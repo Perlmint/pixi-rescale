@@ -1,0 +1,31 @@
+{
+  "name": "pixi-rescale",
+  "version": "1.0.0",
+  "description": "pixi renderer auto rescale",
+  "main": "index.js",
+  "dependencies": {
+    "pixi.js": "^4.5.4"
+  },
+  "devDependencies": {
+    "@types/pixi.js": "^4.5.2",
+    "typescript": "^2.4.2"
+  },
+  "scripts": {
+    "build": "tsc",
+    "wp-watch": "tsc --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Perlmint/pixi-rescale.git"
+  },
+  "keywords": [
+    "pixi",
+    "rescale"
+  ],
+  "author": "Gyusun Yeom <omniavinco@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Perlmint/pixi-rescale/issues"
+  },
+  "homepage": "https://github.com/Perlmint/pixi-rescale#readme"
+}
