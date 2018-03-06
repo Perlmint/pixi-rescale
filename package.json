@@ -28,5 +28,9 @@
   "bugs": {
     "url": "https://github.com/Perlmint/pixi-rescale/issues"
   },
-  "homepage": "https://github.com/Perlmint/pixi-rescale#readme"
+  "homepage": "https://github.com/Perlmint/pixi-rescale#readme",
+  "files": [
+    "index.js",
+    "index.d.ts"
+  ]
 }
