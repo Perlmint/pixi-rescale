@@ -3,6 +3,7 @@
     "target": "es5",
     "module": "commonjs",
     "allowJs": false,
+    "outDir": "..",
     "removeComments": false,
     "declaration": true,
     "strict": true,
@@ -13,5 +14,11 @@
     "noUnusedLocals": true,
     "noUnusedParameters": false,
     "noImplicitReturns": true
-  }
+  },
+  "include": [
+    "*.ts"
+  ],
+  "exclude": [
+    "../*.*"
+  ]
 }

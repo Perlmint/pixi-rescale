@@ -11,8 +11,9 @@
     "typescript": "^2.7.2"
   },
   "scripts": {
-    "build": "tsc",
-    "wp-watch": "tsc --watch"
+    "build": "tsc -p src",
+    "wp-watch": "tsc -p src --watch",
+    "prepublish": "npm run build"
   },
   "repository": {
     "type": "git",

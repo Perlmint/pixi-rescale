@@ -26,14 +26,11 @@ export default function(renderer: Renderer) {
             let screenW = window.innerWidth;
             let screenH = window.innerHeight;
             const screenRatio = screenW / screenH;
-            let scale = 1;
             const ratio = renderer.width / renderer.height;
             if (screenRatio > ratio) {
                 screenW = ratio * screenH;
-                scale = screenH / renderer.height;
             } else {
                 screenH = screenW / ratio;
-                scale = screenW / renderer.width;
             }
 
             renderer.view.style.width = `${screenW}px`;
