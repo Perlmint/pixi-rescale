@@ -3,12 +3,12 @@
   "version": "1.0.0",
   "description": "pixi renderer auto rescale",
   "main": "index.js",
-  "dependencies": {
+  "peerDependencies": {
     "pixi.js": "^4.5.4"
   },
   "devDependencies": {
     "@types/pixi.js": "^4.5.2",
-    "typescript": "^2.4.2"
+    "typescript": "^2.7.2"
   },
   "scripts": {
     "build": "tsc",
